@@ -134,6 +134,7 @@ public class DemoApplication implements ApplicationRunner {
 		}
 	}
 	private void playWithMongodb() throws InterruptedException {
+		//提交测试
 		MongoCoffee latte = MongoCoffee.builder()
 				.name("latte")
 				.price(Money.of(CurrencyUnit.of("CNY"),20.0))
